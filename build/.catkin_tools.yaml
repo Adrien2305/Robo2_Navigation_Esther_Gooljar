@@ -1,0 +1,6 @@
+devel_space: /home/info/Desktop/ros_ws/devel
+install: false
+install_space: /home/info/Desktop/ros_ws/install
+profile: default
+source_space: /home/info/Desktop/ros_ws/src
+workspace: /home/info/Desktop/ros_ws

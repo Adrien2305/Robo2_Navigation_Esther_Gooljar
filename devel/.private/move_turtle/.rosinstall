@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/info/Desktop/ros_ws/devel/.private/move_turtle/setup.sh

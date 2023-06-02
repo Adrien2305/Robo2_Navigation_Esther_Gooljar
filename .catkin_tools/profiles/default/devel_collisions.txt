@@ -1,0 +1,1 @@
+/home/info/Desktop/ros_ws/devel/./cmake.lock 1
