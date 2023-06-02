@@ -11,11 +11,7 @@ def goto():
     goal_pub = rospy.Publisher('move_base_simple/goal', PoseStamped, queue_size=10)
 
     # Define the list of points to visit
-    points = [
-        (1.0, 1.0, 0.0),
-        (2.0, 2.0, 0.0),
-        (3.0, 3.0, 0.0)
-    ]
+    points = [(3.0278525352478027, -1.4700452089309692), (7.72671127319336, -2.4896795749664307), (3.081020355224609, -2.7720134258270264)]
 
     # Define the number of cycles to perform
     num_cycles = 3
