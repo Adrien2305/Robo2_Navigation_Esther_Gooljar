@@ -5,7 +5,7 @@ from geometry_msgs.msg import PoseStamped
 
 def goto():
     # Initialize the ROS node
-    rospy.init_node('goto', anonymous=True)
+    rospy.init_node('move_turtle', anonymous=True)
 
     # Create a publisher for the goal position
     goal_pub = rospy.Publisher('move_base_simple/goal', PoseStamped, queue_size=10)
